@@ -50,6 +50,8 @@ for i=1:length(t)
         delete(P4_circle);
    end
 end
-% xx=1:10;
-% yy=spline(theta,P3(2,:),xx);
-% plot(xx,yy);
+x=P3(1,:);
+y=P3(2,:);
+x1=P2(1,:);
+y1=P2(2,:);
+plot(x,y,x1,y1);
